@@ -1,15 +1,37 @@
+
 body{
     background-color: white;
 }
+.wrapper{
+    width: 100%;
+    max-width: 96rem;
+    margin: 0 auto;
+}
 .nav-bar {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     background-color: #4d4d4d;
-    color: #f2f2f2;
+    /* color: #f2f2f2;
     height: 5rem;
     justify-content: space-around;
     padding: 1rem;
-    align-items: center;
+    align-items: center; */
+  }
+
+  nav ul{
+      list-style-type: none;
+      padding: 0;
+  }
+  nav a{
+      text-decoration: none;
+      color:#f2f2f2;
+      display: block;
+      padding: 1rem;
+      background-color: #777
+  }
+
+  nav a:hover{
+      background-color: #555;
   }
   .politico-icon{
       color:#b30000;
@@ -90,4 +112,16 @@ body{
 }
 .menu-bar{
     background-color: #4d4d4d;
+}
+
+/* media queries */
+@media screen and (min-width:768px){
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav li{
+        flex: 1 1 0;
+    }
 }
