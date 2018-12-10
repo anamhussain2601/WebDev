@@ -42,28 +42,27 @@ body{
     padding:1rem;
     position: relative; */
     height:15rem;
-    width: 15rem;
+    width: 32rem;
 
 }
 .one{
     background-color: red;
-    flex-grow: 1; 
+    flex-shrink: 1; 
 
 }
 .two{
     background-color: green;
-    flex-grow: 2;
+    flex-shrink: 1;
 
 }
 .three{
     background-color: blue;
-    flex-grow: 6;
+    flex-shrink: 1;
 
 }
 .four{
     background-color: yellow;
-    flex-grow: 1;
-
+    flex-shrink: 6;
 }
 
 .btn-rounded{
