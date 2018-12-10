@@ -56,8 +56,9 @@ body{
     display: flex;
     background-color: #fff;
     flex-wrap: wrap;
-    flex-flow: row;
-    justify-content:flex-start;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
     height: 100rem;
     /* flex-direction: column; */
   }
