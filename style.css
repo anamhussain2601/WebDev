@@ -30,18 +30,42 @@ body{
  
 .container {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 .section{
-    display:block;
+    /* display:block;
     background-color:#f2f2f2;
     margin-top: 2rem;
     margin-bottom: 2rem;
     width:80%;
     transform: translate(10%);
     padding:1rem;
-    position: relative;
+    position: relative; */
+    height:15rem;
+    width: 15rem;
+
 }
+.one{
+    background-color: red;
+    flex-grow: 1; 
+
+}
+.two{
+    background-color: green;
+    flex-grow: 2;
+
+}
+.three{
+    background-color: blue;
+    flex-grow: 6;
+
+}
+.four{
+    background-color: yellow;
+    flex-grow: 1;
+
+}
+
 .btn-rounded{
     border-radius: 0.5rem;
     height: 2rem;
