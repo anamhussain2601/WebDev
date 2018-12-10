@@ -42,6 +42,19 @@ body{
     padding:1rem;
     position: relative;
 }
+.one{
+    background-color: red;
+}
+.two{
+    background-color: green;
+}
+.three{
+    background-color: blue;
+}
+.four{
+    background-color: yellow;
+}
+
 .btn-rounded{
     border-radius: 0.5rem;
     height: 2rem;
