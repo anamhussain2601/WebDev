@@ -30,6 +30,8 @@ body{
  
 .container {
     display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
     /* flex-direction: column; */
   }
 .section{
@@ -42,27 +44,24 @@ body{
     padding:1rem;
     position: relative; */
     height:15rem;
-    width: 32rem;
+    min-width: 20rem;
+    flex-grow: 1;
 
 }
 .one{
     background-color: red;
-    flex-shrink: 1; 
 
 }
 .two{
     background-color: green;
-    flex-shrink: 1;
 
 }
 .three{
     background-color: blue;
-    flex-shrink: 1;
 
 }
 .four{
     background-color: yellow;
-    flex-shrink: 6;
 }
 
 .btn-rounded{
