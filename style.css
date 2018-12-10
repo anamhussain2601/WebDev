@@ -44,8 +44,8 @@ body{
     padding:1rem;
     position: relative; */
     height:15rem;
-    min-width: 20rem;
-    flex-grow: 1;
+    flex-basis: 50rem;
+    /* flex-grow: 50rem; */
 
 }
 .one{
